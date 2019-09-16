@@ -179,4 +179,7 @@ do
 	rm "${TMPFILE}"
 done
 
+$APP_CENTER_BUILD_URL="https://api.appcenter.ms/v0.1/apps/${appcenter_org}/${appcenter_name}/releases/${RELEASE_ID}"
+echo_info "App Center build is available at $APP_CENTER_BUILD_URL"
+
 echo_done "Completed AppCenter app upload at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
