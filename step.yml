@@ -95,3 +95,8 @@ inputs:
       title: "Uploaded build related release notes"
       is_expand: true
       is_required: false
+outputs:
+  - APP_CENTER_BUILD_URL:
+    opts:
+      title: Public Install Page for generated build
+      description: App center build URL for install.
